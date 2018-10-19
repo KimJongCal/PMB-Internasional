@@ -12,11 +12,12 @@
                         <h1 class="page-header">Welcome <?php echo $this->session->userdata('nama')?></h1>
                         <h2>Registration Steps : </h2>
                         <ul class="list-group">
-                            <li class="list-group-item">1. Fill in the administration form <a href="https://pmb-intl.uinsgd.ac.id/">Here</a></li>
-                            <li class="list-group-item">2. Login with new email and password created in the administration form</li>
+                            <li class="list-group-item">1. Fill in the administration form <a href="https://pmb-intl.uinsgd.ac.id/">Here</a>. if you have filled in, go to step 2</li>
+                            <li class="list-group-item">2. Login using email and password created in the administration form</li>
                             <li class="list-group-item">3. Make payment as specified in <a href="https://pmb.uinsgd.ac.id/">Here</a></li>
                             <li class="list-group-item">4. Wait until payment is verified by the admin</li>
-                            <li class="list-group-item">5. Print the participant card.</li>
+                            <li class="list-group-item">5. Print the participant card</li>
+                            <li class="list-group-item">6. Follow the steps on the participant card</li>
                         </ul>
                         <div class="alert alert-warning alert-dismissible text-center">
                             if you have made payment and payment has been verified by admin, please print the participant card
